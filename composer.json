@@ -1,0 +1,36 @@
+{
+  "name": "emirhandeniz58/yii2-odeme",
+  "description": "Yii2 odeme Modulu",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "emirhandeniz58",
+      "email": "180201048@kocaeli.edu.tr",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "yiisoft/yii2": "~2.0.13"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "8.*.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "emirhandeniz58\\odeme\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "emirhandeniz58\\odeme\\tests\\": "tests"
+    }
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
